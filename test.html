@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body> 
+<!-- Форма входя OLD -->    
+Для зарегистрированных пользователей<br><br>
+<form action='join.php' method=POST name="log">
+    <input type="text" name="loginOld" placeholder="Логин"><br>
+    <input type="password" name="passwordOld" placeholder="Пароль"><br>
+    <input type="submit" name="logOld" value="Войти">
+</form>
+<!-- Форма входя OLD -->     
+<br><hr><br>  
+<!-- Форма входя NEW -->     
+Для новых пользователей<br><br>
+<form action='new.php' method=POST> 
+Ваш Login: <input name=loginNew type=text size='10' maxlength='10' placeholder="Логин"><br>    
+Придумайте пароль: <input name=passNew type="password"  size="10" maxlength="15" placeholder="Пароль"><br>     
+Возраст: <input type=text size="10" maxlength="2" name=ageNew placeholder="Возраст"><br>    
+<input type=submit name="logNew" value='Регистрация'>
+</form>
+<!-- Форма входя NEW --> 
+
+</body>
+</html>
